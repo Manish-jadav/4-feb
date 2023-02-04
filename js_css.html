@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <p id="head">Good Morning !</p>
+    <div id="head1"></div>
+
+    <script>
+      function myFun() {
+        document.getElementById("head").style.fontSize = "30px";
+        document.getElementById("head").style.border = "2px solid red";
+        document.getElementById("head").style.backgroundColor = "aqua";
+        document.getElementById("head").style.color = "red";
+        x = "nature.jpg";
+
+        document.getElementById("head1").src = x;
+      }
+      function myFun1() {
+        document.getElementById("head1").src = "nature.jpg";
+      }
+    </script>
+    <button onclick="myFun()" type="button">Click me !</button>
+    <button onclick="myFun1()" type="button1">Click me !</button>
+  </body>
+</html>
